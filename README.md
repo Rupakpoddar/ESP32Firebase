@@ -1,29 +1,18 @@
-# ESP32Firebase
-## Arduino library to read and write data to Google Firebase.
+# Deprecated Arduino Library
 
-# Tutorial
-### The following steps are one-time process:
+## ⚠️ This Library Has Been Deprecated
 
-Step 1: Open your firebase project, select 'Database' and click 'View' under Realtime Database. 
+This library is no longer maintained and has been officially deprecated.
 
-![Step1](https://github.com/Rupakpoddar/ESP32Firebase/blob/main/documentation/tutorial_1.png) 
+### Replacement Library
 
-Step 2: Select 'Rules'. 
+We highly recommend transitioning to the new and improved Firebase Arduino library, which supports ESP8266, ESP32, Arduino UNO R4 WiFi, and offers more reliability and enhanced functionality. The new library is also fully compatible with the Arduino Cloud IDE.
 
-![Step2](https://github.com/Rupakpoddar/ESP32Firebase/blob/main/documentation/tutorial_2.png) 
+- **GitHub Repository:** [Firebase Arduino](https://github.com/Rupakpoddar/FirebaseArduino)
+- **Arduino Reference:** [Firebase Arduino Library](https://www.arduino.cc/reference/en/libraries/firebase/)
 
-Step 3: Change the '.read' and '.write' rules to 'true' and hit enter. 
+Please update your projects to use the new library to benefit from the latest features and improvements.
 
-![Step3.1](https://github.com/Rupakpoddar/ESP32Firebase/blob/main/documentation/tutorial_3.png) 
+---
 
-![Step3.2](https://github.com/Rupakpoddar/ESP32Firebase/blob/main/documentation/tutorial_4.png) 
-
-Step 4: Select 'Publish'. 
-
-![Step4](https://github.com/Rupakpoddar/ESP32Firebase/blob/main/documentation/tutorial_5.png) 
-
-Step 5: Go back to the 'Data' tab. Copy the reference url, and paste it in the Arduino code. 
-
-![Step5](https://github.com/Rupakpoddar/ESP32Firebase/blob/main/documentation/tutorial_6.png) 
-
-That is it. You are all set! You can go through the example codes to get familiar with the library. 
+Thank you for your understanding and support!
